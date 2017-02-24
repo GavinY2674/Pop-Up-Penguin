@@ -1,18 +1,25 @@
 body{
-	background-color: #ccf5f9;
+	background-image: url(https://static.pexels.com/photos/4022/cold-snow-forest-trees.jpeg)
 }
 #gameholder{
-	width: 600px;
+	width: 1200px;
 	margin-left:auto;
 	margin-right:auto;
-}
+	background-color: #ccf5f9;
+	border-style:ridge;
+	border-width:10px;
+	border-color:#ccf5e1;
+}	
 #title{
 	width:600px;
 	height:150px;
 	background-image:url("./penguin_pngs/penguin_title.png");
+	margin-left:auto;
+	margin-right:auto;
 }
 .Penguin{
-	width:280px;
+	width:290px;
 	height:150px;
-	align-content: center;
+	margin-left:auto;
+	margin-right:auto;
 }

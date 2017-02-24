@@ -6,16 +6,17 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
+	<div id="title"></div>
 	<div id="gameholder">
-		<div id="title"></div>
-		<img class="Penguin" id="Penguin1" url="./penguin_pngs/mound_1.png" onmouseover="this.url=''" onmouseout="this.url='./penguin_pngs/mound_1.png'" />
-		<img class="Penguin" id="Penguin2" url="" onmouseover="this.url=''" onmouseout="this.url=''" />
-		<img class="Penguin" id="Penguin3" url="" onmouseover="this.url=''" onmouseout="this.url=''" />
-		<img class="Penguin" id="Penguin4" url="" onmouseover="this.url=''" onmouseout="this.url=''" />
-		<img class="Penguin" id="Penguin5" url="" onmouseover="this.url=''" onmouseout="this.url=''" />
-		<img class="Penguin" id="Penguin6" url="" onmouseover="this.url=''" onmouseout="this.url=''" />
-		<img class="Penguin" id="Penguin7" url="" onmouseover="this.url=''" onmouseout="this.url=''" />
-		<img class="Penguin" id="Penguin8" url="" onmouseover="this.url=''" onmouseout="this.url=''" />
-	<div class="yeti"></div>
+		<img onmouseup="Click()" class="Penguin" id="Penguin1" src="./penguin_pngs/mound_1_hover.png" onmousedown="this.src='./penguin_pngs/penguin_1.png'" />
+		<img onmouseup="Click()" class="Penguin" id="Penguin2" src="./penguin_pngs/mound_2_hover.png" onmousedown="this.src='./penguin_pngs/penguin_2.png'" />
+		<img onmouseup="Click()" class="Penguin" id="Penguin3" src="./penguin_pngs/mound_3_hover.png" onmousedown="this.src='./penguin_pngs/penguin_3.png'" />
+		<img onmouseup="Click()" class="Penguin" id="Penguin4" src="./penguin_pngs/mound_4_hover.png" onmousedown="this.src='./penguin_pngs/penguin_4.png'" />
+		<!--<img onmouseup="Click()" class="Penguin" id="Penguin5" src="./penguin_pngs/mound_5_hover.png" onmousedown="this.src='./penguin_pngs/penguin_5.png'" />-->
+			<img onmouseup="Death()" onmousedown="this.src='./penguin_pngs/yeti.png'" class="Penguin" id="Yeti" src="./penguin_pngs/mound_5_hover.png" mound_5_hover.png'" onmousedown="this.src='./penguin_pngs/mound_5.png'" />
+		<img onmouseup="Click()" class="Penguin" id="Penguin6" src="./penguin_pngs/mound_6_hover.png" onmousedown="this.src='./penguin_pngs/penguin_6.png'" />
+		<img onmouseup="Click()" class="Penguin" id="Penguin7" src="./penguin_pngs/mound_7_hover.png" onmousedown="this.src='./penguin_pngs/penguin_7.png'" />
+		<img onmouseup="Click()" class="Penguin" id="Penguin8" src="./penguin_pngs/mound_8_hover.png" onmousedown="this.src='./penguin_pngs/penguin_8.png'" />
 </body>
+<script type="text/javascript" src="app.js"></script>
 </html>
